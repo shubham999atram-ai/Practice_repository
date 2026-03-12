@@ -12,73 +12,47 @@ merge.md → Demonstrates Git merging practice
 
 1. GIT INITIALIZATION
 
-Initialize a new repository
+Initialize a new repository   -> git init
 
-git init
-
-Check repository status
-
-git status
+Check repository status       -> git status
 
 --------------------------------------------------
 
 2. ADDING FILES
 
-Add a specific file
+Add a specific file   -> git add filename
 
-git add filename
-
-Add all files
-
-git add .
+Add all files         -> git add .
 
 --------------------------------------------------
 
 3. COMMIT CHANGES
 
-Commit staged changes
+Commit staged changes   -> git commit -m "Initial commit"
 
-git commit -m "Initial commit"
+View commit history     -> git log
 
-View commit history
-
-git log
-
-Short commit history
-
-git log --oneline
+Short commit history    -> git log --oneline
 
 --------------------------------------------------
 
 4. BRANCHING COMMANDS
 
-Create a new branch
+Create a new branch   -> git branch feature-branch
 
-git branch feature-branch
+Switch to a branch    -> git checkout feature-branch
 
-Switch to a branch
+Create and switch to a new branch   -> git checkout -b new-feature
 
-git checkout feature-branch
+List all branches     -> git branch
 
-Create and switch to a new branch
-
-git checkout -b new-feature
-
-List all branches
-
-git branch
-
-Delete a branch
-
-git branch -d branch-name
+Delete a branch       -> git branch -d branch-name
 
 --------------------------------------------------
 
 5. MERGING BRANCHES
 
-Merge a branch into the current branch
-
-git merge branch-name
+Merge a branch into the current branch  -> git merge branch-name
 
 Example workflow
 
@@ -92,48 +66,26 @@ git merge feature-login
 
 6. REMOTE REPOSITORIES
 
-Add remote repository
+Add remote repository    -> git remote add origin repository-url
 
-git remote add origin repository-url
+View remote repositories -> git remote -v
 
-View remote repositories
+Push code to GitHub      -> git push -u origin main
 
-git remote -v
+Pull latest changes      -> git pull origin main
 
-Push code to GitHub
-
-git push -u origin main
-
-Pull latest changes
-
-git pull origin main
-
-Clone a repository
-
-git clone repository-url
+Clone a repository       -> git clone repository-"url"
 
 --------------------------------------------------
 
 7. RESET COMMAND
 
-Soft reset (keeps changes staged)
+Soft reset (keeps changes staged)        -> git reset --soft HEAD~1
 
-git reset --soft HEAD~1
-
-Hard reset (removes commit and changes)
-
-git reset --hard HEAD~1
+Hard reset (removes commit and changes)  -> git reset --hard HEAD~1
 
 --------------------------------------------------
 
 8. REVERT COMMAND
 
-Undo a commit by creating a new commit
-
-git revert commit-id
-
---------------------------------------------------
-
-CONCLUSION
-
-This repository demonstrates my understanding of Git fundamentals including initialization, staging, committing, branching, merging, and working with remote repositories.
+Undo a commit by creating a new commit   -> git revert commit-id (we can get id by git log cmd)
