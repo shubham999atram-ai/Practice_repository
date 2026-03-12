@@ -5,9 +5,7 @@ This repository demonstrates the basic Git commands I practiced while learning v
 FILES IN THIS REPOSITORY
 
 README.md → Contains explanation of Git commands  
-branching.md → Demonstrates Git branching practice  
-merge.md → Demonstrates Git merging practice  
-
+Example folder → Demonstrates Git practice work
 --------------------------------------------------
 
 1. GIT INITIALIZATION
