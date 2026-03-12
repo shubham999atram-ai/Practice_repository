@@ -53,14 +53,19 @@ Delete a branch       -> git branch -d branch-name
 5. MERGING BRANCHES
 
 Merge a branch into the current branch  -> git merge branch-name
-
+<br>
 Example workflow
-
+<br>
 git checkout -b feature-login
+<br>
 git add .
+<br>
 git commit -m "Added login feature"
-git checkout main
-git merge feature-login
+<br>
+git checkout main 
+<br>
+git merge feature-login 
+<br>
 
 --------------------------------------------------
 
